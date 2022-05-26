@@ -21,6 +21,7 @@
     "@types/koa-json": "^2.0.20",
     "@types/koa-router": "^7.4.4",
     "@types/node": "^17.0.8",
+    "@types/node-fetch": "^2.6.1",
     "@types/pretty-hrtime": "^1.0.1",
     "@types/yamljs": "^0.2.31",
     "@typescript-eslint/eslint-plugin": "^5.9.0",
@@ -37,6 +38,9 @@
   },
   "dependencies": {
     "dotenv": "^10.0.0",
+    "graphql": "^16.5.0",
+    "isomorphic-unfetch": "^3.1.0",
+    "joi": "^17.6.0",
     "koa": "^2.13.4",
     "koa-bodyparser": "^4.3.0",
     "koa-json": "^2.0.2",
@@ -45,6 +49,7 @@
     "link-module-alias": "^1.2.0",
     "pretty-hrtime": "^1.0.3",
     "tslog": "^3.3.1",
+    "urql": "^2.2.0",
     "yamljs": "^0.3.0"
   },
   "_moduleAliases": {
